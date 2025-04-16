@@ -1,14 +1,12 @@
 # Simbian Security Operations Comparison Section Assignment
 
-Developed a modern look and feel section for simbian Security. 
-where users can see the clear difference between using simbian security or not. I though of creating something that users can interact with so came up with this slider and comparison slider where users can actually see the difference between simbian security and not using simbian security.
+Developed a modern and interactive section for Simbian Security, allowing users to clearly see the difference between using Simbian Security and not using it. I designed a comparison slider that users can interact with to visualize the improvements Simbian Security provides.
 
-i have added multiple components and used motion for animations.where i have maintained consistent directory structure and naming convention. i have added
-usestate, useeffect hooks for state management and sideoperations. i have set things up in such a way that it can be easily scalable and maintainable.
+I added multiple components with motion-based animations while maintaining a consistent directory structure and naming convention. I used useState and useEffect hooks for state management and side effects, setting up the project in a way that's scalable and easy to maintain.
 
 ![Dashboard Preview](public/Home.png)
 
-I used Next.js Framework with App Router for the project with typescript and tailwind css for styling as per the requirements. I have deployed the project on vercel.
+The project is built with the Next.js App Router, using TypeScript and Tailwind CSS for styling, as per the requirements. It has been deployed on Vercel.
 
 ## ✨ Features
 
@@ -50,15 +48,15 @@ git clone <https://github.com/Nikhileshrana/simbian-assignment.git>
 ## Images
 
 ### Without Simbian Security
-![Dashboard Preview](public/Without Simbian.png)
+![Dashboard Preview](public/Without_Simbian.png)
 ### With Simbian Security
-![Dashboard Preview](public/With Simbian.png)
+![Dashboard Preview](public/With_Simbian.png)
 ### Tablet View
-![Dashboard Preview](public/Tablet Responsiveness.png)
+![Dashboard Preview](public/Tablet_Responsiveness.png)
 ### Mobile View
-![Dashboard Preview](public/Mobile Responsiveness.png)
+![Dashboard Preview](public/Mobile_Responsiveness.png)
 ### Light Mode
-![Dashboard Preview](public/Light Mode Compatible.png)
+![Dashboard Preview](public/Light_Mode_Compatible.png)
 
 ### Light House Scores
 ![Dashboard Preview](public/Performance.png)

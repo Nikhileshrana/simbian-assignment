@@ -56,6 +56,7 @@ export default function LeftSide({ inset }: any) {
   return (
     <div
       className="absolute left-0 top-0 z-10 w-full h-full aspect-video rounded-2xl select-none border border-border bg-background text-foreground"
+      // this clip path reveals and hides the right side of the screen
       style={{
         clipPath: "inset(0 " + (100 - inset) + "% 0 0)",
       }}

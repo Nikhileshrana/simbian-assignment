@@ -56,7 +56,7 @@ function Feature() {
                 }}
               >
                 <button
-                aria-description="Drag to compare"
+                aria-label="Drag to compare"
                   className="bg-muted rounded scale-125 hover:scale-200 transition-all w-5 h-10 select-none -translate-y-1/2 absolute top-1/2 -ml-2 z-30 cursor-ew-resize flex justify-center items-center border border-border"
                   onTouchStart={(e) => {
                     setOnMouseDown(true);

@@ -7,8 +7,12 @@ const page = () => {
  
   return (
     <>
+
+    {/*  Navigation Bar */}
     <MainNavbar/>
+    {/*  Feature Comparison */}
     <Feature />
+    {/* Footer */}
     <Footer/>
     </>
   )
