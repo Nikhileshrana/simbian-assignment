@@ -48,7 +48,7 @@ export default function LeftSide({ inset }: any) {
       } else {
         setActiveThreats((prev) => prev + 1);
       }
-    }, 3000);
+    }, 1500);
 
     return () => clearInterval(interval);
   }, []);
