@@ -8,6 +8,11 @@ I added multiple components with motion-based animations while maintaining a con
 
 The project is built with the Next.js App Router, using TypeScript and Tailwind CSS for styling, as per the requirements. It has been deployed on Vercel.
 
+### Areas of Improvement
+- Dynamic data fetching
+- Adding Graphs and charts for more insights
+- Using of ShadCN ui components for faster and smoother development process
+
 ## ✨ Features
 
 - **Next.js Framework**: Next.js Framework used with App Router
@@ -33,10 +38,6 @@ The project is built with the Next.js App Router, using TypeScript and Tailwind 
 - Real-time alert notifications
 - Counter animations
 - Status indicators
-
-### Areas of Improvement
-- Dynamic data fetching
-- Using of ShadCN ui components for faster and smoother development process
 
 ## 🏃‍♂️ Getting Started
 
