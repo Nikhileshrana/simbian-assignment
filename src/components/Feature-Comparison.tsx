@@ -40,7 +40,7 @@ function Feature() {
               Simbian
             </p>
           </div>
-          <div className="mt-12 w-full shadow-2xl rounded-2xl">
+          <div className="mt-10 w-full shadow-2xl rounded-2xl">
             <div
               className="relative aspect-3/5 sm:aspect-video w-full h-full overflow-hidden rounded-2xl select-none bg-background text-foreground border border-border"
               onMouseMove={onMouseMove}
@@ -56,7 +56,7 @@ function Feature() {
                 }}
               >
                 <button
-                  className="bg-muted rounded hover:scale-110 transition-all w-5 h-10 select-none -translate-y-1/2 absolute top-1/2 -ml-2 z-30 cursor-ew-resize flex justify-center items-center border border-border"
+                  className="bg-muted rounded scale-125 hover:scale-200 transition-all w-5 h-10 select-none -translate-y-1/2 absolute top-1/2 -ml-2 z-30 cursor-ew-resize flex justify-center items-center border border-border"
                   onTouchStart={(e) => {
                     setOnMouseDown(true);
                     onMouseMove(e);
@@ -73,8 +73,8 @@ function Feature() {
               </div>
 
               <div>
-                <RightSide />
                 <LeftSide inset={inset} />
+                <RightSide />
               </div>
             </div>
           </div>

@@ -6,10 +6,11 @@ import {
   Shield,
   AlertTriangle,
   XCircle,
-  Shield as ShieldIcon,
 } from "lucide-react";
 
+
 export default function LeftSide({ inset }: any) {
+
   const alertTypes = [
     "Phishing Email Detected",
     "Suspicious Login Attempt",
@@ -22,13 +23,10 @@ export default function LeftSide({ inset }: any) {
     "SQL Injection Attempt",
     "DDoS Attack Detected",
   ];
-
   const [ignoredAlerts, setIgnoredAlerts] = useState(200);
   const [wronglyClosed, setWronglyClosed] = useState(35);
   const [activeThreats, setActiveThreats] = useState(5);
-  const [alerts, setAlerts] = useState<
-    { id: number; type: string; timestamp: Date }[]
-  >([]);
+  const [alerts, setAlerts] = useState<{ id: number; type: string; timestamp: Date }[]>([]);
 
   // Simulate new alerts coming in
   useEffect(() => {
