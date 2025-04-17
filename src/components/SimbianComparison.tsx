@@ -13,16 +13,14 @@ import {
   XCircle,
   Monitor,
 } from "lucide-react";
+import Link from "next/link";
 import { cn } from "@/lib/utils";
 import AlertCard from "@/components/AlertCard";
 import ConnectorIcons from "@/components/ConnectorIcons";
-import { useRouter } from "next/router";
-
 
 
 // --- Main SimbianComparison Component ---
 export default function SimbianComparison() {
-  const Router = useRouter();
   const [mode, setMode] = useState<"with" | "without">("without");
   const initialCounts = useRef({ ignored: 200, wrongly: 35, active: 5 });
   const [ignoredAlerts, setIgnoredAlerts] = useState(
@@ -227,7 +225,7 @@ export default function SimbianComparison() {
   ];
   // Pick a random notification message on each render (when in 'without' mode)
   const randomNotification = notificationMessages[Math.floor(Math.random() * notificationMessages.length)];
-
+  
   return (
     <div
       className={cn(
@@ -300,9 +298,11 @@ export default function SimbianComparison() {
             </motion.p>
             {mode === "without" && (
                 <>
-                <button onClick={()=>{Router.push("https://www.nikhileshrana.com/")}} className="p-2 text-base m-1 rounded-xl border-2 bg-white cursor-pointer">
+                <Link href="https://www.nikhileshrana.com/">
+                <button className="p-2 text-base m-1 rounded-xl border-2 bg-white cursor-pointer">
                     Book a Demo 😀
                 </button>
+                </Link>
                 </>
             )}
           </motion.div>
