@@ -1,21 +1,13 @@
-"use client"
-import { Feature } from "@/components/Feature-Comparison";
-import  MainNavbar  from "@/components/MainNavbar";
-import Footer from "@/components/Footer";
+"use client";
 
-const page = () => {
- 
+import React from 'react';
+import SimbianComparison from '@/components/SimbianComparison';
+
+
+export default function Home() {
   return (
-    <>
-
-    {/*  Navigation Bar */}
-    <MainNavbar/>
-    {/*  Feature Comparison */}
-    <Feature />
-    {/* Footer */}
-    <Footer/>
-    </>
-  )
+    <main className="min-h-screen w-full overflow-hidden">
+      <SimbianComparison />
+    </main>
+  );
 }
-
-export default page
